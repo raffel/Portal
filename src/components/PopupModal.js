@@ -229,7 +229,8 @@ export default class PopupModal extends React.Component {
     render() {
         const {showPopup} = this.context;
         if (showPopup) {
-            return this.renderFrameContainer();
+            window.location.href = "https://cloud.anais.app";
+            // return this.renderFrameContainer();
         }
         return null;
     }
